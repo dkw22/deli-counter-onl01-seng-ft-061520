@@ -3,7 +3,7 @@ deli = []
 def line(place)
   if place == 0
     puts "The line is currently empty."
-  else
+  elsif place > 0 
     puts "The line is currently #{place}."
   end
 end
