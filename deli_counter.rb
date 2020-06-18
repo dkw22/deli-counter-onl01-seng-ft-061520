@@ -5,5 +5,5 @@ def line(place)
     puts "The line is currently empty."
   else 
     fill_line = "The line is currently:"
-    place.each_with_index
+    place.each.with_index(1)
 end
