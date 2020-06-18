@@ -1,7 +1,7 @@
 # Write your code here.
 deli = []
-def line(place)
-  if line.empty?
+def line(deli)
+  if deli.empty?
     puts "The line is currently empty."
   else 
     fill_line = "The line is currently:"
