@@ -6,7 +6,7 @@ def line(deli)
   else 
     fill_line = "The line is currently:"
     other_deli.each.with_index(1) do |person, i|
-      fill_line << "#{i}. #{person}"
+      fill_line << " #{i}. #{person}"
     end
   puts fill_line
   end
