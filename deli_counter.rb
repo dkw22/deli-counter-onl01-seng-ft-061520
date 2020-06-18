@@ -5,4 +5,5 @@ def line(place)
     puts "The line is currently empty."
   else
     puts "The line is currently #{place}."
+  end
 end
